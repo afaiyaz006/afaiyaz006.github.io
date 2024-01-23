@@ -2,6 +2,7 @@ baseURL: "https://afaiyaz.me"
 languageCode: "en-us"
 title: "Hugo Profile"
 theme: hugo-profile
+themesdir : "themes"
 
 outputs:
   home:
