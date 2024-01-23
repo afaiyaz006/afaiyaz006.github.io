@@ -1,15 +1,15 @@
 baseURL = "https://afaiyaz.me"
 languageCode = "en-us"
-title = "My Digital Garden"
+title = "Ahmed Faiyaz"
 theme = "hugo-digital-garden-theme"
 themesdir = "themes"
-copyright = "Nigalya Ponya ©"
+copyright = "Ahmed Faiyaz"
 
 
 [params]
-  name = "Nigalya Ponya"
+  name = "Ahmed Faiyaz"
   description = "Red panda living in the eastern Himalayas."
-  initials = "NP"
+  initials = "Ahmed Faiyaz"
   googleAnalytics = ""
 
   [[params.social]]
