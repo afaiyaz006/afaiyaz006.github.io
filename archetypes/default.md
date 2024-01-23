@@ -1,7 +1,10 @@
-+++
-title = "{{ replace .Name "-" " " | title }}"
-date = {{ .Date }}
-lastmod: {{ .Lastmod }}
-draft = true
-status = "seeding"
-+++
+---
+title: "{{ replace .Name "-" " " | title }}"
+date: {{ .Date }}
+draft: true
+author:
+tags:
+image:
+description:
+toc:
+---

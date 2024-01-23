@@ -1,11 +1,14 @@
+{{ define "head" }}
+<meta name="description" content={{ .Site.Params.description }}>
+{{ end }}
+
+{{ define "title" }}
+{{ .Site.Title }} | {{ .Site.Params.terms.pageNotFound | default "404 page not found" }}
+{{ end }}
+
 {{ define "main" }}
-<div class="container">
-    <div class="py-5 rounded-3">
-        <div class="container-fluid py-2">
-            <h1 class="display-2 mb-4">404: 😵 Ouch !</h1>
-            <p class="bio col-md-8 fs-4 serif">The page you are looking for could not be found.</p>
-            <p>It may have been deleted, or it may have never existed at all 😧</p>
-        </div>
-    </div>
+<div class="container py-5 text-center">
+    <img src="{{ .Site.Params.staticPath }}/404.png" alt='{{ .Site.Params.terms.pageNotFound | default "404 page not found" }}' class="img-fluid" width="40%">
+    <h1>{{ .Site.Params.terms.pageNotFound | default "404 page not found" }}</h1>
 </div>
 {{ end }}
