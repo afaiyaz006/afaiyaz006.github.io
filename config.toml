@@ -2,7 +2,7 @@ baseURL = "https://afaiyaz.me"
 languageCode = "en-us"
 title = "My Digital Garden"
 theme = "hugo-digital-garden-theme"
-themesdir = "../../"
+themesdir = "themes"
 copyright = "Nigalya Ponya ©"
 
 
