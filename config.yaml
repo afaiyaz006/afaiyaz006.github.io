@@ -128,7 +128,7 @@ params:
     title: "Ahmed Faiyaz."
     subtitle: "I am a passionate programmer."
     content: "A passionate programmer in his self interested journey."
-    image: /images/hero.svg
+    image: /images_/me.jpg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -152,7 +152,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "https://raw.githubusercontent.com/afaiyaz006/afaiyaz006.github.io/main/images/me.png"
+    image: "/images_/me.jpg"
     content: |-
       I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. 
 
