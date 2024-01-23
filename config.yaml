@@ -24,7 +24,7 @@ markup:
       unsafe: true
 
 Menus:
-  main:
+ # main:
    #- identifier: garden
    #   name: Blog
    #   title: Blog posts
