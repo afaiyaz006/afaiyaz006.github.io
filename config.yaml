@@ -165,10 +165,10 @@ params:
         - "HTML"
         - "CSS"
         - "JavaScript"
-        - "React"
-        - "Node"
-        - "Express"
         - "python"
+        - "c"
+        - "c++"
+        - "Java"
 
   # Experience
   experience:
