@@ -1,12 +1,15 @@
 :root {
     --blue: #0A94C8;
     --lighter-blue: #addbec;
+    --green : 
     --yellow: #FFB603;
     --red: #FF2F03;
     --dark: #233044;
     --grey: #454963;
-    --white: #fff;
-    --offwhite: #fafafa;
+    --white: #E4F9F5;
+    --offwhite: #FFF78A;
+    --lighter-green : #30E3CA;
+    --green: #11999E;
     --title: 'Mulish', sans-serif;
     --summary: 'Frank Ruhl Libre', serif;
     --headings: 'Encode Sans Semi Condensed', sans-serif;
