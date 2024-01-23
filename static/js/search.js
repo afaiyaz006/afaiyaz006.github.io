@@ -47,7 +47,6 @@ async function searchOnChange(evt) {
                         <a href="${item.permalink}">
                             <div class="p-3">
                                 <h5>${item.title}</h5>
-                                <div>${item.description}</div>
                             </div>
                        </a>
                     </div>`;

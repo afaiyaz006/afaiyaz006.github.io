@@ -25,7 +25,7 @@ markup:
 
 Menus:
   main:
-   - identifier: blog
+   #- identifier: garden
    #   name: Blog
    #   title: Blog posts
    #   url: /blogs
@@ -261,7 +261,6 @@ params:
         links:
           - icon: fab fa-github
             url: https://github.com/afaiyaz006/Cave-Trouble
-
   #Contact
   contact:
     enable: true
