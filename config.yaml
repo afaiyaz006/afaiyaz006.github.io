@@ -24,11 +24,11 @@ markup:
       unsafe: true
 
 Menus:
- # main:
-   #- identifier: garden
-   #   name: Blog
-   #   title: Blog posts
-   #   url: /blogs
+   main:
+    - identifier: "garden"
+      name: "Blog"
+      title: "Blog posts"
+      url: "/garden"
    #   weight: 1
    # - identifier: gallery
    #   name: Gallery
