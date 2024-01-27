@@ -223,11 +223,11 @@ params:
         image: /images_/Artnet.png
 
         badges:
-          - "Hugo"
-          - "HTMX"
-          - "Javascript"
-          - "Django"
           - "python"
+          - "Django"
+          - "HTMX"
+          - "CSS"
+          - "javascript"
         links:
           - icon: fab fa-github
             url: https://github.com/afaiyaz006/artnet
