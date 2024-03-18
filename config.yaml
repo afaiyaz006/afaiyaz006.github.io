@@ -54,7 +54,7 @@ Menus:
     #   weight: 2
 
 params:
-  title: "Faiyaz Profile"
+  title: "Ahmed Faiyaz"
   description: This is my portfolio website.
   # staticPath: ""  # The path to serve the static files from
   favicon: "/fav.png"
@@ -169,6 +169,11 @@ params:
         - "c"
         - "c++"
         - "Java"
+        - "javascript"
+        - "nextjs"
+        - "react"
+        - "tailwind css"
+        
 
   # Experience
   experience:
@@ -177,7 +182,7 @@ params:
     items:
       - job: "Volunteering"
         company: "ICPC"
-        companyUrl: "https://example.com"
+        companyUrl: "https://icpc.global"
         date: "Nov 2022 - Dec 2022"
         #featuredLink:
         #  enable: true
