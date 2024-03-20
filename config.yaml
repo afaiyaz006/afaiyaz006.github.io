@@ -268,10 +268,10 @@ params:
             url: https://github.com/afaiyaz006/Cave-Trouble
   #Contact
   contact:
-    enable: true
+    enable: false
     # title: "Custom Name"
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-    email: ahmed.faiyaz1532@gmail.com
+    email: 
     btnName: Mail me
     # formspree:
     #   enable: true # `contact.email` value will be ignored
