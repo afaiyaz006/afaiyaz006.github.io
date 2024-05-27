@@ -126,8 +126,8 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Ahmed Faiyaz."
-    subtitle: "I am a passionate programmer and problem solver."
-    content: "Crafting digital experiences with code, passion, and a touch of creativity."
+    subtitle: "I am a CSE graduate, programmer and amatuer researcher."
+    content: "I devise solutions to problems through lateral thinking."
     image: /images_/me.jpg
     bottomImage:
       enable: true
@@ -160,16 +160,15 @@ params:
       🚀 I enjoy turning ideas into reality through clean and efficient code.
     skills:
       enable: true
-      title: "Here are a few technologies I've been working with recently:"
+      title: "Technologies I've been working with :"
       items:
-        - "HTML"
-        - "CSS"
-        - "JavaScript"
         - "python"
         - "c"
         - "c++"
         - "Java"
         - "javascript"
+        - "HTML"
+        - "CSS"
         - "nextjs"
         - "react"
         - "tailwind css"
@@ -202,9 +201,13 @@ params:
           name: "University of Asia Pacific"
           url: "https://www.uap-bd.edu/"
         date: "2019 - 2023"
-
+        content: |-
+          I co-authored one paper in IEEE Access vol 12.
+            - Okkhor-Diffusion: Class Guided Generation of Bangla Isolated Handwritten Characters Using Denoising Diffusion Probabilistic Model (DDPM)<br>
+              URL : [Journal Article](https://ieeexplore.ieee.org/document/10445466) 
+    
       
-
+ 
   # Achievements
   achievements:
     enable: true
@@ -244,7 +247,21 @@ params:
        #     url: https://github.com/gurusabarish/hugo-profile
        #   - icon: fab fa-twitter
        #     url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
-
+      - title: Note-Write
+        content: Note writing web app with some ai based features.
+        image: /images_/note-write.png
+        featured:
+          name: Live
+          link: https://note-write.vercel.app/
+        badges:
+          - "Typescript"
+          - "nodejs"
+          - "nextjs"
+          - "tailwindcss"
+          - "daisyui"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/afaiyaz006/note-write
       - title: UAP Bazar
         content: A simple offline store management app for desktop made with javafx.
         image: /images_/uap_bazar.png
@@ -265,7 +282,7 @@ params:
           - "C#"
         links:
           - icon: fab fa-github
-            url: https://github.com/afaiyaz006/Cave-Trouble
+            url: https://github.com/afaiyaz006/Cave-Trouble         
   #Contact
   contact:
     enable: false
