@@ -253,6 +253,20 @@ params:
         links:
           - icon: fab fa-github
             url: https://github.com/afaiyaz006/Mangomedia
+       - title: Kotha 
+         content: This project is a lightweight, real-time chat application built using Next.js for the frontend and Socket.IO for real-time communication.
+         featured:
+          name: Live
+          link: kotha-kappa.vercel.app
+         badges:
+          - "Typescript"
+          - "nodejs"
+          - "nextjs"
+          - "tailwindcss"
+          - "socket.io"
+         links:
+          - icon: fab fa-github
+            url: https://github.com/afaiyaz006/Kotha
        # links:
        #  - icon: fa fa-envelope
        #     url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
