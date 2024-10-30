@@ -192,6 +192,7 @@ params:
         #  name: "View the project"
         #  url: "https://example.com"
         content: "Volunteered at the ICPC Programming Contest Technical Team."
+        
      - job: "Internship"
        company: "Quantigo AI"
        companyUrl: "https://quantigo.ai"
@@ -214,7 +215,7 @@ params:
             - Okkhor-Diffusion: Class Guided Generation of Bangla Isolated Handwritten Characters Using Denoising Diffusion Probabilistic Model (DDPM)<br>
               URL : [Journal Article](https://ieeexplore.ieee.org/document/10445466) 
           I authored another paper related to a dataset.
-            - Indic Dialogue: A dataset of subtitles in 10 Indic languages for Indic language modeling.
+            - Indic-Dialogue: A dataset of subtitles in 10 Indic languages for Indic language modeling.
               URL: [Journal Article](https://www.sciencedirect.com/science/article/pii/S2352340924006577)
       
  
