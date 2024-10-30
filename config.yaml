@@ -187,17 +187,13 @@ params:
         company: "ICPC"
         companyUrl: "https://icpc.global"
         date: "Nov 2022 - Dec 2022"
-        #featuredLink:
-        #  enable: true
-        #  name: "View the project"
-        #  url: "https://example.com"
         content: "Volunteered at the ICPC Programming Contest Technical Team."
         
      - job: "Internship"
        company: "Quantigo AI"
        companyUrl: "https://quantigo.ai"
-       date: "Jun 2024-Aug 2024"
-       content: "Worked as an engineering intern for 3 months"
+       date: "Jun 2024 - Aug 2024"
+       content: "Worked as an engineering intern for 3 months."
  
   # Education
   education:
