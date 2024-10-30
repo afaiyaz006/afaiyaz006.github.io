@@ -254,7 +254,7 @@ params:
           - "javascript"
         links:
           - icon: fab fa-github
-          - url: https://github.com/afaiyaz006/Mangomedia
+            url: https://github.com/afaiyaz006/Mangomedia
        - title: Kotha 
          content: This project is a lightweight, real-time chat application built using Next.js for the frontend and Socket.IO for real-time communication.
          featured:
