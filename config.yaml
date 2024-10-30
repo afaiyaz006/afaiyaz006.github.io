@@ -189,11 +189,12 @@ params:
         date: "Nov 2022 - Dec 2022"
         content: "Volunteered at the ICPC Programming Contest Technical Team."
         
-     - job: "Internship"
-       company: "Quantigo AI"
-       companyUrl: "https://quantigo.ai"
-       date: "Jun 2024 - Aug 2024"
-       content: "Worked as an engineering intern for 3 months."
+      - job: "Internship"
+        company: "Quantigo AI"
+        companyUrl: "https://quantigo.ai"
+        date: "Jun 2024 - Aug 2024"
+        content: "Worked as a engineering intern for 3 months."    
+    
  
   # Education
   education:
