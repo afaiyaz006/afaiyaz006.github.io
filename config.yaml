@@ -189,7 +189,7 @@ params:
 
       - job: "Volunteering "
         company: "ICPC"
-        companyUrl: "https://quantigo.ai"
+        companyUrl: "https://icpc.org"
         date: "Nov 2022 - Dec 2022"
         content: "Volunteered at the ICPC Programming Contest Technical Team."
 
