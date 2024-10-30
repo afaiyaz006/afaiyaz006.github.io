@@ -153,7 +153,7 @@ params:
     title: "About Me"
     image: "/images_/me.jpg"
     content: |-
-      🎓 Recent Computer Science graduate passionate about technology and coding.
+      🎓 Computer Science graduate passionate about technology and coding.
 
       💼 Currently exploring opportunities and working on personal projects.
 
@@ -181,12 +181,6 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "Internship"
-        company: "Quantigo AI"
-        companyUrl: "https://quantigo.ai"
-        date: "Jun 2024 - Aug 2024"
-        content: "Worked as a engineering intern for 3 months."
-
       - job: "Volunteering "
         company: "ICPC"
         companyUrl: "https://icpc.org"
@@ -243,9 +237,10 @@ params:
             url: https://github.com/afaiyaz006/artnet
       - title: Mangomedia
         content: MangoMedia is a lightweight, user-friendly microblogging platform that allows users to share short posts, interact with others, and engage in real-time discussions.
+        image: /images_/mm.png
         featured:
           name: Live
-          link: mangomedia.vercel.app
+          link: https://mangomedia.vercel.app
         badges:
           - "python"
           - "Django"
@@ -257,9 +252,10 @@ params:
             url: https://github.com/afaiyaz006/Mangomedia
       - title: Kotha
         content: This project is a lightweight, real-time chat application built using Next.js for the frontend and Socket.IO for real-time communication.
+        image: /images_/kotha.png
         featured:
           name: Live
-          link: kotha-kappa.vercel.app
+          link: https://kotha-kappa.vercel.app
         badges:
           - "Typescript"
           - "nodejs"
