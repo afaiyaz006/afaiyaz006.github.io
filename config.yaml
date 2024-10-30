@@ -183,12 +183,6 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "Volunteering"
-        company: "ICPC"
-        companyUrl: "https://icpc.global"
-        date: "Nov 2022 - Dec 2022"
-        content: "Volunteered at the ICPC Programming Contest Technical Team."
-        
       - job: "Internship"
         company: "Quantigo AI"
         companyUrl: "https://quantigo.ai"
