@@ -1,0 +1,332 @@
+/* Reset for consistency */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Bree Serif", serif;
+  color: #000;
+  line-height: 1.4;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    315deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(223, 171, 240, 1) 0%,
+    rgba(218, 230, 31, 1) 0%,
+    rgba(121, 165, 234, 1) 0%,
+    rgba(123, 161, 241, 1) 0%,
+    rgba(69, 252, 72, 1) 76%,
+    rgba(69, 252, 72, 1) 87%
+  );
+  min-height: 100vh; /* Ensure gradient covers full height */
+}
+
+/* Header and Navbar */
+header {
+  background-color: #fff;
+  border-bottom: 4px solid #2a9d8f; /* Muted teal accent */
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar {
+  display: flex;
+  align-items: left;
+  justify-content: space-between;
+  padding: 15px 20px;
+  margin: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #2a369d;
+}
+
+.hamburger {
+  display: none; /* Hidden on desktop */
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #000;
+}
+
+.nav-links {
+  display: flex;
+  gap: 8px;
+}
+
+.nav-links a {
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+  padding: 6px 10px;
+  border: 2px solid #000;
+  background-color: #fff;
+  box-shadow: 4px 4px 0 #2a9d8f;
+  transition: all 0.2s ease;
+}
+
+.nav-links a:hover {
+  background-color: #2a9d8f;
+  color: #fff;
+  box-shadow: 2px 2px 0 #000;
+  transform: translateY(-2px);
+}
+
+.tagline {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Main Content */
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* About Me Section */
+.about-section {
+  margin-bottom: 50px;
+  padding: 30px;
+  background-color: #d9d9d9; /* Concrete-like gray for contrast */
+  border: 6px solid #000; /* Thicker border for emphasis */
+  box-shadow: 10px 10px 0 #2a9d8f; /* Larger teal shadow */
+  position: relative;
+}
+
+.about-section h2 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #2a9d8f;
+  border-bottom: 2px solid #000;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: left;
+
+  background-color: #fff;
+  padding: 20px;
+  border: 3px solid #000;
+  transition: transform 0.2s ease;
+  justify-content: space-between;
+}
+
+.about-content:hover {
+  transform: translateY(-5px);
+}
+
+.about-content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+.profile-image {
+  width: 150px; /* Adjust as needed */
+  height: 150px;
+  border-radius: 50%; /* Keeps it circular */
+  border: 5px solid black; /* Strong black border */
+  box-shadow: 4px 4px 0px #ff4757; /* Offset shadow for that raw, blocky look */
+  background: white; /* Ensure contrast */
+  object-fit: cover;
+}
+/* Other Sections */
+section:not(.about-section) {
+  margin-bottom: 50px;
+  padding: 20px;
+  background-color: #fff;
+  border: 4px solid #000;
+  box-shadow: 8px 8px 0 #2a9d8f;
+}
+
+h2 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #2a9d8f;
+  border-bottom: 2px solid #000;
+}
+
+h3 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.meta {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+p,
+li {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.entry {
+  padding: 15px;
+  border-left: 4px solid #2a9d8f;
+  margin-bottom: 20px;
+  transition: transform 0.2s ease;
+}
+
+.entry:hover {
+  transform: translateY(-5px);
+}
+
+ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+}
+
+li {
+  background-color: #d9d9d9;
+  padding: 10px;
+  border: 2px solid #000;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+li:hover {
+  background-color: #2a9d8f;
+  color: #fff;
+}
+
+#contact a {
+  color: #2a9d8f;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+  border-top: 4px solid #2a9d8f;
+  color: #2a9d8f;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    border-bottom: 4px solid #2a9d8f;
+    padding: 20px;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links a {
+    font-size: 1rem;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px 0 #2a9d8f;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+  }
+
+  .tagline,
+  .meta,
+  p,
+  li {
+    font-size: 1rem;
+  }
+
+  .about-section {
+    padding: 20px;
+    box-shadow: 6px 6px 0 #2a9d8f;
+  }
+
+  .about-content {
+    padding: 15px;
+  }
+
+  .about-content p {
+    font-size: 1rem;
+  }
+
+  section:not(.about-section) {
+    padding: 15px;
+    box-shadow: 4px 4px 0 #2a9d8f;
+  }
+
+  ul {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  .navbar {
+    padding: 15px;
+  }
+
+  .entry {
+    padding: 10px;
+  }
+
+  .about-section {
+    padding: 15px;
+  }
+
+  section {
+    margin-bottom: 30px;
+  }
+
+  .tagline {
+    font-size: 0.9rem;
+  }
+}

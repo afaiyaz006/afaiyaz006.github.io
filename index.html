@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ahmed Faiyaz - Portfolio</title>
+    <meta name="description" content="This is my portfolio website." />
+    <link rel="icon" href="/fav.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <h1>Faiyaz's World</h1>
+        <button class="hamburger">☰</button>
+        <nav class="nav-links">
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#education">Education</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="about" class="about-section">
+        <h2>About Me</h2>
+        <div class="about-content">
+          <p>
+            🎓 Recent Computer Science graduate passionate about technology and
+            coding.
+          </p>
+          <p>
+            💼 Currently exploring opportunities and working on personal
+            projects.
+          </p>
+          <p>
+            🚀 I enjoy turning ideas into reality through clean and efficient
+            code.
+          </p>
+          <img
+            class="profile-image"
+            src="https://avatars.githubusercontent.com/u/69722755"
+            alt="profile-image"
+          />
+        </div>
+      </section>
+
+      <section id="experience">
+        <h2>Experience</h2>
+        <div class="entry">
+          <h3>Backend Developer Intern</h3>
+          <p class="meta">6sense Technologies | Nov 2024 - Mar 2025</p>
+          <p>Worked as an backend developer intern for 4 months.</p>
+        </div>
+        <div class="entry">
+          <h3>Internship</h3>
+          <p class="meta">Quantigo AI | Jun 2024 - Aug 2024</p>
+          <p>Worked as an engineering intern for 3 months.</p>
+        </div>
+        <div class="entry">
+          <h3>Volunteering</h3>
+          <p class="meta">ICPC | Nov 2022 - Dec 2022</p>
+          <p>Volunteered at the ICPC Programming Contest Technical Team.</p>
+        </div>
+      </section>
+
+      <section id="education">
+        <h2>Education</h2>
+        <div class="entry">
+          <h3>Bachelor of Science, Computer Science</h3>
+          <p class="meta">University of Asia Pacific | 2019 - 2023</p>
+        </div>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="entry">
+          <h3>Artnet</h3>
+          <p>
+            Photo-sharing social network that transforms photos into artwork.
+          </p>
+          <a href="https://github.com/afaiyaz006/artnet">GitHub</a>
+        </div>
+        <div class="entry">
+          <h3>Mangomedia</h3>
+          <p>Lightweight microblogging platform for real-time discussions.</p>
+          <a href="https://github.com/afaiyaz006/Mangomedia">GitHub</a>
+          <a href="https://mangomedia.vercel.app">Live Demo</a>
+        </div>
+      </section>
+
+      <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>Python</li>
+          <li>PyTorch</li>
+          <li>TensorFlow</li>
+          <li>C</li>
+          <li>C++</li>
+          <li>Java</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Next.js</li>
+          <li>Tailwind CSS</li>
+        </ul>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>Find me on:</p>
+        <p><a href="https://github.com/afaiyaz006">GitHub</a></p>
+        <p>
+          <a href="https://www.linkedin.com/in/ahmed-faiyaz-951797197/"
+            >LinkedIn</a
+          >
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2025 Ahmed Faiyaz</p>
+    </footer>
+
+    <script>
+      // Toggle hamburger menu
+      document.querySelector(".hamburger").addEventListener("click", () => {
+        document.querySelector(".nav-links").classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
