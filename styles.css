@@ -25,7 +25,7 @@ body {
 
 /* Header and Navbar */
 header {
-  background-color: #fff;
+  background-color: #ffffff;
   border-bottom: 4px solid #2a9d8f; /* Muted teal accent */
   position: sticky;
   top: 0;
@@ -102,7 +102,7 @@ main {
 .about-section {
   margin-bottom: 50px;
   padding: 30px;
-  background-color: #d9d9d9; /* Concrete-like gray for contrast */
+  background-color: #fcfaa2; /* yellow */
   border: 6px solid #000; /* Thicker border for emphasis */
   box-shadow: 10px 10px 0 #2a9d8f; /* Larger teal shadow */
   position: relative;
