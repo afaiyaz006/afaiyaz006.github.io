@@ -42,6 +42,11 @@
         background: rgba(0, 0, 0, 0.05);
         color: #000;
       }
+
+      &.active {
+        color: #0071e3;
+        background: rgba(0, 113, 227, 0.08);
+      }
     }
   }
 }

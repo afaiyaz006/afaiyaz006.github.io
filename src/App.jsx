@@ -1,4 +1,4 @@
-import { Routes, Route, Link } from 'react-router-dom'
+import { Routes, Route, NavLink } from 'react-router-dom'
 import Home from './pages/Home'
 import Blogs from './pages/Blogs'
 import Projects from './pages/Projects'
@@ -11,9 +11,9 @@ function App() {
       <header className="navbar-wrapper">
         <nav className="navbar">
           <ul className="nav-links">
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/projects">Projects</Link></li>
-            <li><Link to="/blogs">Blogs</Link></li>
+            <li><NavLink to="/" end>Home</NavLink></li>
+            <li><NavLink to="/projects">Projects</NavLink></li>
+            <li><NavLink to="/blogs">Blogs</NavLink></li>
           </ul>
         </nav>
       </header>
