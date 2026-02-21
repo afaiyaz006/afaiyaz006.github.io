@@ -44,6 +44,13 @@ export default function Home() {
                 AI-driven systems.
               </p>
             </div>
+            <a
+              href="https://github.com/afaiyaz006"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>
           </div>
         </div>
       </section>
