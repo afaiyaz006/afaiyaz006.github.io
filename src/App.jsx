@@ -7,17 +7,18 @@ import './App.scss'
 
 function App() {
   return (
-    <div className="app-container">
-      <nav>
-        <ul>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/blogs">Blogs</Link></li>
-          <li><Link to="/projects">Projects</Link></li>
-          <li><Link to="/about">About Me</Link></li>
-        </ul>
-      </nav>
+    <div className="app-layout">
+      <header className="navbar-wrapper">
+        <nav className="navbar">
+          <ul className="nav-links">
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/projects">Projects</Link></li>
+            <li><Link to="/blogs">Blogs</Link></li>
+          </ul>
+        </nav>
+      </header>
 
-      <main>
+      <main className="main-content">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/blogs" element={<Blogs />} />
@@ -26,8 +27,8 @@ function App() {
         </Routes>
       </main>
 
-      <footer>
-        <p>© 2026 Ahmed Faiyaz. All rights reserved.</p>
+      <footer className="footer">
+        <p>© {new Date().getFullYear()} Ahmed Faiyaz. Built with passion.</p>
       </footer>
     </div>
   )

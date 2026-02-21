@@ -1,45 +1,85 @@
-#root {
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 2rem;
-    text-align: center;
+.app-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 0 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
-.logo {
-    height: 6em;
-    padding: 1.5em;
-    will-change: filter;
-    transition: filter 300ms;
-
-    &:hover {
-        filter: drop-shadow(0 0 2em #646cffaa);
-    }
-
-    &.react:hover {
-        filter: drop-shadow(0 0 2em #61dafbaa);
-    }
+.navbar-wrapper {
+  position: sticky;
+  top: 1.5rem;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
 }
 
-@keyframes logo-spin {
-    from {
-        transform: rotate(0deg);
-    }
+.navbar {
+  /* Glassmorphism Effect */
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 0.5rem 2rem;
+  border-radius: 999px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.08);
 
-    to {
-        transform: rotate(360deg);
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+    font-size: 0.95rem;
+    font-weight: 500;
+
+    li a {
+      color: #333;
+      padding: 0.5rem 1rem;
+      border-radius: 999px;
+      transition: all 0.2s ease;
+
+      &:hover {
+        background: rgba(0, 0, 0, 0.05);
+        color: #000;
+      }
     }
+  }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-    a:nth-of-type(2) .logo {
-        animation: logo-spin infinite 20s linear;
+.main-content {
+  flex-grow: 1;
+}
+
+.footer {
+  padding: 4rem 0 2rem;
+  text-align: center;
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: #888;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 640px) {
+  .app-layout {
+    padding: 0 1.25rem;
+  }
+
+  .navbar {
+    padding: 0.4rem 1.25rem;
+    
+    .nav-links {
+      gap: 0.5rem;
+      font-size: 0.9rem;
     }
-}
-
-.card {
-    padding: 2em;
-}
-
-.read-the-docs {
-    color: #888;
+  }
 }

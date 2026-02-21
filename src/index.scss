@@ -1,73 +1,53 @@
 :root {
-    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-    line-height: 1.5;
-    font-weight: 400;
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
 
-    color-scheme: light dark;
-    color: rgba(255, 255, 255, 0.87);
-    background-color: #242424;
+  color: #1d1d1f;
+  background-color: #f5f5f7;
 
-    font-synthesis: none;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-    font-weight: 500;
-    color: #646cff;
-    text-decoration: inherit;
-
-    &:hover {
-        color: #535bf2;
-    }
+* {
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    display: flex;
-    place-items: center;
-    min-width: 320px;
-    min-height: 100vh;
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  color: #1d1d1f;
+  background-color: #fafafa;
 }
 
-h1 {
-    font-size: 3.2em;
-    line-height: 1.1;
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: #111;
 }
 
-button {
-    border-radius: 8px;
-    border: 1px solid transparent;
-    padding: 0.6em 1.2em;
-    font-size: 1em;
-    font-weight: 500;
-    font-family: inherit;
-    background-color: #1a1a1a;
-    cursor: pointer;
-    transition: border-color 0.25s;
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
-    &:hover {
-        border-color: #646cff;
-    }
-
-    &:focus,
-    &:focus-visible {
-        outline: 4px auto -webkit-focus-ring-color;
-    }
+  &:hover {
+    opacity: 0.8;
+  }
 }
 
-@media (prefers-color-scheme: light) {
-    :root {
-        color: #213547;
-        background-color: #ffffff;
-    }
-
-    a:hover {
-        color: #747bff;
-    }
-
-    button {
-        background-color: #f9f9f9;
-    }
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
+
+/* Material Elevation Helpers */
+.elevation-1 { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
+.elevation-2 { box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); }
+.elevation-3 { box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23); }
