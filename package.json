@@ -2,7 +2,7 @@
   "name": "afaiyaz006.github.io",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://afaiyaz006.github.io/portfolio",
+  "homepage": "https://afaiyaz006.github.io/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
