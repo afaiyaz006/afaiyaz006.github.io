@@ -26,22 +26,26 @@ export default function Home() {
   return (
     <div className="home-container">
       <section className="intro">
-        <span className="intro-subtitle">Software Engineer</span>
-        <h1 className="intro-title">Ahmed Faiyaz</h1>
-        <div className="intro-description">
-          <p>
-            I build thoughtful digital experiences that bridge the gap between
-            people and technology. Currently focused on building scalable web
-            applications and exploring the potential of AI-driven systems.
-          </p>
+        <div className="intro-content">
+          <div className="intro-image">
+            <img
+              src="https://avatars.githubusercontent.com/u/69722755?s=400&u=40231cbede32b8e972ecb2c72d9ddd66c69617a6&v=4"
+              alt="Ahmed Faiyaz"
+            />
+          </div>
+          <div className="intro-text">
+            <span className="intro-subtitle">Software Engineer</span>
+            <h1 className="intro-title">Ahmed Faiyaz</h1>
+            <div className="intro-description">
+              <p>
+                I build thoughtful digital experiences that bridge the gap
+                between people and technology. Currently focused on building
+                scalable web applications and exploring the potential of
+                AI-driven systems.
+              </p>
+            </div>
+          </div>
         </div>
-        <a
-          href="https://github.com/afaiyaz006"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          GitHub
-        </a>
       </section>
 
       <section className="skills-section">
